@@ -2,6 +2,8 @@ import { useEffect } from 'react'
 import useGetPriceData from './useGetPriceData'
 import { CAKE } from '../constants'
 
+// FIXME price data is not correct
+
 const useGetDocumentTitlePrice = () => {
   const priceData = useGetPriceData()
 
@@ -16,7 +18,7 @@ const useGetDocumentTitlePrice = () => {
         })}`
 
   useEffect(() => {
-    document.title = `PancakeSwap${cakePriceUsdString}`
+    document.title = `Bonkey dAPP ${0.006}`
   }, [cakePriceUsdString])
 }
 export default useGetDocumentTitlePrice

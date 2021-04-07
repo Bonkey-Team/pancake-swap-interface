@@ -1,10 +1,10 @@
-import { MenuEntry, menuStatus } from '@pancakeswap-libs/uikit'
+import { MenuEntry, menuStatus } from 'plkit'
 
 const config: MenuEntry[] = [
   {
     label: 'Home',
     icon: 'HomeIcon',
-    href: 'https://pancakeswap.finance/',
+    href: 'https://finance.bonkey.org/',
   },
   {
     label: 'Trade',
@@ -24,13 +24,14 @@ const config: MenuEntry[] = [
   {
     label: 'Farms',
     icon: 'FarmIcon',
-    href: 'https://pancakeswap.finance/farms',
+    href: 'https://finance.bonkey.org/farms',
   },
   {
     label: 'Pools',
     icon: 'PoolIcon',
-    href: 'https://pancakeswap.finance/syrup',
+    href: 'https://finance.bonkey.org/pools',
   },
+  /*
   {
     label: 'Lottery',
     icon: 'TicketIcon',
@@ -122,6 +123,7 @@ const config: MenuEntry[] = [
       },
     ],
   },
+ */
 ]
 
 export default config
