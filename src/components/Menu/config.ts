@@ -31,12 +31,12 @@ const config: MenuEntry[] = [
     icon: 'PoolIcon',
     href: 'https://finance.bonkey.org/pools',
   },
-  /*
   {
     label: 'Lottery',
     icon: 'TicketIcon',
     href: 'https://pancakeswap.finance/lottery',
   },
+  /*
   {
     label: 'Collectibles',
     icon: 'NftIcon',
