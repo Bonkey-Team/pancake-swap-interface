@@ -34,7 +34,7 @@ const config: MenuEntry[] = [
   {
     label: 'Lottery',
     icon: 'TicketIcon',
-    href: 'https://pancakeswap.finance/lottery',
+    href: 'https://finance.bonkey.org/lottery',
   },
   /*
   {
