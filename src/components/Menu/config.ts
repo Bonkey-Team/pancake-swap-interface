@@ -36,36 +36,40 @@ const config: MenuEntry[] = [
     icon: 'TicketIcon',
     href: 'https://finance.bonkey.org/lottery',
   },
-  /*
   {
     label: 'Collectibles',
     icon: 'NftIcon',
     href: 'https://pancakeswap.finance/nft',
   },
+  /*
   {
     label: 'Team Battle',
     icon: 'TeamBattleIcon',
     href: 'https://pancakeswap.finance/competition',
     status: menuStatus.LIVE,
   },
+ */
   {
     label: 'Teams & Profile',
     icon: 'GroupsIcon',
     items: [
       {
         label: 'Leaderboard',
-        href: 'https://pancakeswap.finance/teams',
+        href: 'https://finance.bonkey.org/teams',
       },
+      /*
       {
         label: 'Task Center',
         href: 'https://pancakeswap.finance/profile/tasks',
       },
+     */
       {
         label: 'Your Profile',
-        href: 'https://pancakeswap.finance/profile',
+        href: 'https://finance.bonkey.org/profile',
       },
     ],
   },
+  /*
   {
     label: 'Info',
     icon: 'InfoIcon',
