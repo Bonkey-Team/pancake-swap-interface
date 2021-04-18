@@ -30,10 +30,10 @@
     {
       "name": "Bonkey dAPP",
       "symbol": "BNKY",
-      "address": "0xc46180bedf5c78e536f511d00e535ca8b63dfda8",
+      "address": "0xAdc8e9B18b671DF686acCe0543F086293f2ef886",
       "chainId": 56,
       "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xc46180bedf5c78e536f511d00e535ca8b63dfda8.png"
+      "logoURI": "https://exchange.bonkey.org/images/coins/0xAdc8e9B18b671DF686acCe0543F086293f2ef886.png"
     },
     {
       "name": "Ethereum Token",
