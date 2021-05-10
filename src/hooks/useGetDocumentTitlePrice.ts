@@ -18,7 +18,7 @@ const useGetDocumentTitlePrice = () => {
         })}`
 
   useEffect(() => {
-    document.title = `Bonkey dAPP ${0.006}`
+    document.title = `Bonkey dAPP ${0.01}`
   }, [cakePriceUsdString])
 }
 export default useGetDocumentTitlePrice
