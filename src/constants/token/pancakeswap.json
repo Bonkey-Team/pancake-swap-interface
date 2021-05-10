@@ -52,124 +52,12 @@
       "logoURI": "https://exchange.bonkey.org/images/coins/0x7130d2a12b9bcbfae4f2634d864a1ee1ce3ead9c.png"
     },
     {
-      "name": "BAND Protocol Token",
-      "symbol": "BAND",
-      "address": "0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xad6caeb32cd2c308980a548bd0bc5aa4306c6c18.png"
-    },
-    {
-      "name": "EOS Token",
-      "symbol": "EOS",
-      "address": "0x56b6fb708fc5732dec1afc8d8556423a2edccbd6",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x56b6fb708fc5732dec1afc8d8556423a2edccbd6.png"
-    },
-    {
       "name": "Tether USD",
       "symbol": "USDT",
       "address": "0x55d398326f99059ff775485246999027b3197955",
       "chainId": 56,
       "decimals": 18,
       "logoURI": "https://exchange.bonkey.org/images/coins/0x55d398326f99059ff775485246999027b3197955.png"
-    },
-    {
-      "name": "XRP Token",
-      "symbol": "XRP",
-      "address": "0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x1d2f0da169ceb9fc7b3144628db156f3f6c60dbe.png"
-    },
-    {
-      "name": "Bitcoin Cash Token",
-      "symbol": "BCH",
-      "address": "0x8ff795a6f4d97e7887c79bea79aba5cc76444adf",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x8ff795a6f4d97e7887c79bea79aba5cc76444adf.png"
-    },
-    {
-      "name": "Litecoin Token",
-      "symbol": "LTC",
-      "address": "0x4338665cbb7b2485a8855a139b75d5e34ab0db94",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x4338665cbb7b2485a8855a139b75d5e34ab0db94.png"
-    },
-    {
-      "name": "Cardano Token",
-      "symbol": "ADA",
-      "address": "0x3ee2200efb3400fabb9aacf31297cbdd1d435d47",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x3ee2200efb3400fabb9aacf31297cbdd1d435d47.png"
-    },
-    {
-      "name": "Cosmos Token",
-      "symbol": "ATOM",
-      "address": "0x0eb3a705fc54725037cc9e008bdede697f62f335",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x0eb3a705fc54725037cc9e008bdede697f62f335.png"
-    },
-    {
-      "name": "Tezos Token",
-      "symbol": "XTZ",
-      "address": "0x16939ef78684453bfdfb47825f8a5f714f12623a",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x16939ef78684453bfdfb47825f8a5f714f12623a.png"
-    },
-    {
-      "name": "Ontology Token",
-      "symbol": "ONT",
-      "address": "0xfd7b3a77848f1c2d67e05e54d78d174a0c850335",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xfd7b3a77848f1c2d67e05e54d78d174a0c850335.png"
-    },
-    {
-      "name": "Zcash Token",
-      "symbol": "ZEC",
-      "address": "0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x1ba42e5193dfa8b03d15dd1b86a3113bbbef8eeb.png"
-    },
-    {
-      "name": "Dai Token",
-      "symbol": "DAI",
-      "address": "0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x1af3f329e8be154074d8769d1ffa4ee058b1dbc3.png"
-    },
-    {
-      "name": "YFII.finance Token",
-      "symbol": "YFII",
-      "address": "0x7f70642d88cf1c4a3a7abb072b53b929b653eda5",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x7f70642d88cf1c4a3a7abb072b53b929b653eda5.png"
-    },
-    {
-      "name": "Cream",
-      "symbol": "CREAM",
-      "address": "0xd4cb328a82bdf5f03eb737f37fa6b370aef3e888",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xd4cb328a82bdf5f03eb737f37fa6b370aef3e888.png"
-    },
-    {
-      "name": "Polkadot Token",
-      "symbol": "DOT",
-      "address": "0x7083609fce4d1d8dc0c979aab8c869ea2c873402",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x7083609fce4d1d8dc0c979aab8c869ea2c873402.png"
     },
     {
       "name": "PancakeSwap Token",
@@ -180,70 +68,6 @@
       "logoURI": "https://exchange.bonkey.org/images/coins/0x0e09fabb73bd3ade0a17ecc321fd13a19e81ce82.png"
     },
     {
-      "name": "ChainLink Token",
-      "symbol": "LINK",
-      "address": "0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xf8a0bf9cf54bb92f17374d9e9a321e6a111a51bd.png"
-    },
-    {
-      "name": "Burger Swap",
-      "symbol": "BURGER",
-      "address": "0xae9269f27437f0fcbc232d39ec814844a51d6b8f",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xae9269f27437f0fcbc232d39ec814844a51d6b8f.png"
-    },
-    {
-      "name": "Trust Wallet",
-      "symbol": "TWT",
-      "address": "0x4b0f1812e5df2a09796481ff14017e6005508003",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x4b0f1812e5df2a09796481ff14017e6005508003.png"
-    },
-    {
-      "name": "Venus",
-      "symbol": "XVS",
-      "address": "0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xcf6bb5389c92bdda8a3747ddb454cb7a64626c63.png"
-    },
-    {
-      "name": "yearn.finance",
-      "symbol": "YFI",
-      "address": "0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x88f1a5ae2a3bf98aeaf342d26b30a79438c9142e.png"
-    },
-    {
-      "name": "Uniswap",
-      "symbol": "UNI",
-      "address": "0xbf5140a22578168fd562dccf235e5d43a02ce9b1",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xbf5140a22578168fd562dccf235e5d43a02ce9b1.png"
-    },
-    {
-      "name": "Filecoin",
-      "symbol": "FIL",
-      "address": "0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x0d8ce2a99bb6e3b7db580ed848240e4a0f9ae153.png"
-    },
-    {
-      "name": "Swipe",
-      "symbol": "SXP",
-      "address": "0x47bead2563dcbf3bf2c9407fea4dc236faba485a",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x47bead2563dcbf3bf2c9407fea4dc236faba485a.png"
-    },
-    {
       "name": "Binance-Peg USD Coin",
       "symbol": "USDC",
       "address": "0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d",
@@ -252,36 +76,12 @@
       "logoURI": "https://exchange.bonkey.org/images/coins/0x8ac76a51cc950d9822d68b83fe1ad97b32cd580d.png"
     },
     {
-      "name": "CertiK Token",
-      "symbol": "CTK",
-      "address": "0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929",
+      "name": "Binance-Peg Dogecoin",
+      "symbol": "DOGE",
+      "address": "0xbA2aE424d960c26247Dd6c32edC70B295c744C43",
       "chainId": 56,
-      "decimals": 6,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0xa8c2b8eec3d368c0253ad3dae65a5f2bbb89c929.png"
-    },
-    {
-      "name": "VAI Stablecoin",
-      "symbol": "VAI",
-      "address": "0x4bd17003473389a42daf6a0a729f6fdb328bbbd7",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x4bd17003473389a42daf6a0a729f6fdb328bbbd7.png"
-    },
-    {
-      "name": "Compound Finance",
-      "symbol": "COMP",
-      "address": "0x52ce071bd9b1c4b00a0b92d298c512478cad67e8",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x52ce071bd9b1c4b00a0b92d298c512478cad67e8.png"
-    },
-    {
-      "name": "Sushi",
-      "symbol": "SUSHI",
-      "address": "0x947950bcc74888a40ffa2593c5798f11fc9124c4",
-      "chainId": 56,
-      "decimals": 18,
-      "logoURI": "https://exchange.bonkey.org/images/coins/0x947950bcc74888a40ffa2593c5798f11fc9124c4.png"
+      "decimals": 8,
+      "logoURI": "https://exchange.bonkey.org/images/coins/0xbA2aE424d960c26247Dd6c32edC70B295c744C43.png"
     }
   ]
 }
