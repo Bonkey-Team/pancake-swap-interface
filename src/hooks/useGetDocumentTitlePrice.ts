@@ -1,24 +1,27 @@
-import { useEffect } from 'react'
-import useGetPriceData from './useGetPriceData'
-import { CAKE } from '../constants'
+import { useState, useEffect } from 'react'
+import { fetchFarmsData } from 'state/farms'
+import BigNumber from 'bignumber.js'
 
 // FIXME price data is not correct
 
 const useGetDocumentTitlePrice = () => {
-  const priceData = useGetPriceData()
-
-  const cakePriceUsd = priceData ? parseFloat(priceData.data[CAKE.address].price) : 0
-
-  const cakePriceUsdString =
-    Number.isNaN(cakePriceUsd) || cakePriceUsd === 0
-      ? ''
-      : ` - $${cakePriceUsd.toLocaleString(undefined, {
-          minimumFractionDigits: 3,
-          maximumFractionDigits: 3,
-        })}`
+  const [cakePriceUsd, setCakePriceUsd] = useState<string|null>(null)
 
   useEffect(() => {
-    document.title = `Bonkey dAPP ${0.01}`
-  }, [cakePriceUsdString])
+    const FetchData = async () => {
+      const farms = await fetchFarmsData();
+      farms().then(data => { 
+         const ZERO = new BigNumber(0)
+         const cakeBnbFarm = data[3] 
+         const bnbBusdFarm = data[2]
+         console.log(cakeBnbFarm)
+         const bnbBusdPrice = bnbBusdFarm.tokenPriceVsQuote ? new BigNumber(1).div(bnbBusdFarm.tokenPriceVsQuote) : ZERO
+         const cakeBusdPrice = cakeBnbFarm.tokenPriceVsQuote ? bnbBusdPrice.times(cakeBnbFarm.tokenPriceVsQuote) : ZERO
+         setCakePriceUsd(cakeBusdPrice.toString()) 
+         document.title = `Bonkey dAPP $ ${cakeBusdPrice.toPrecision(1)}`
+      })
+    }
+    FetchData();
+  }, [])
 }
 export default useGetDocumentTitlePrice
